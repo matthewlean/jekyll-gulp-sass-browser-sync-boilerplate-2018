@@ -1,7 +1,11 @@
 //Font
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
 $font-primary: "Open Sans", -apple-system, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-serif: "Bitter", serif;
 
 // Colours
+$white: rgb(255,255,255);
 $blue: rgb(15,106,234);
 $red: rgb(255,58,47);
 $yellow: rgb(254,203,22);

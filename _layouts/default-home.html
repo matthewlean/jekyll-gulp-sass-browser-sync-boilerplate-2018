@@ -27,21 +27,29 @@
   <div class="site-container splash-overlay">
     <div class="header-content-container">
       <div class="splash-headline">
-        <h1 class="project-name">{{ page.title }}</h1>
-				<p class="description">{{ page.description | escape }}</p>
-        <p class="date">{{ page.date | date_to_long_string }}</p>
+        <img style="width:90%;" src="/assets/site-brand/jurassic-logo.png">
+        <!-- <h1 class="brand-name">{{ page.title }}</h1> -->
+				<!-- <p class="brand-slogan">{{ page.description | escape }}</p>
+        <p class="date">{{ page.date | date_to_long_string }}</p> -->
+        <h2 class="coming-soon">Website Coming Soon</h2>
+        <h3 class="contact-text">Contact us to book a session</h3>
+        <p class="contact-info">
+          <a href="tel:07853303667">07853303667</a> -
+          <a href="mail:enquiries@jurassicwakeandski.com">enquiries@jurassicwakeandski.com</p>
+        <div class="social">
+          <i class="fab fa-2x fa-facebook"></i>
+          <i class="fab fa-2x fa-instagram"></i>
+          <i class="fab fa-2x fa-twitter"></i>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="post">
-  {{ content }}
-</div>
+
 
 </div>
 
-{% include footer.html %}
 
 </body>
 

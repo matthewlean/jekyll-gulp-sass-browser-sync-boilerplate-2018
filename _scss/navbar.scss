@@ -16,6 +16,9 @@
     display: flex;
     float: left;
 }
+.navbar .right {
+    float: right;
+}
 .navbar ul li a  {
     font-family: $font-primary;
     font-size: 14px;
